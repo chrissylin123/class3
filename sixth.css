@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+    display: flex;
+    
+}
+
+.container-A,.container-B{
+    height: 100%;
+    width: 33.3%;
+    background-color: blanchedalmond;
+    align-content: center;
+    padding: 5% 0;
+}
+
+
+.small-container{
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+    padding: 1% 0%;
+}
+
+.picture{
+    height: 100%;
+    width: 100%;
+    padding:5% ;
+}
+
+.video{
+    height: 50%;
+    width: 90%;
+    margin: 5%;
+    box-shadow: 0 0 20px 0 #9a7b4f;
+}
+.text{
+    height: 10%;
+    width: 90%;
+    font: 100;
+    font-style: italic;
+    color: wheat;
+    padding: 5%;
+    margin-left: 5%;
+    background-color: #9a7b4f;
+    text-align: center;
+}
+.text:hover{
+    color: #4b371c;
+}
